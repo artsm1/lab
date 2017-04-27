@@ -12,6 +12,7 @@
 		# Check the existance of each parameter using the PHP function 'isset'.
 		# Check the blankness of an element in $_POST by comparing it to the empty string.
 		# (can also use the element itself as a Boolean test!)
+	
 	if (!isset($_POST["name"]) || !isset($_POST["membership"]) || !isset($_POST["cardnum"]) || !isset($_POST["cardtype"]) ||
 		!$_POST["name"] || !$_POST["membership"] || !$_POST["cardnum"])
 	{
